@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icon/apple-touch-icon.png" >
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icon/favicon-32x32.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/icon/favicon.ico">
+    <link rel="mask-icon" href="/assets/images/icon/safari-pinned-tab.svg" color="#093b6b">
+    <link rel="manifest" href="/assets/images/icon/manifest.json">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/app.css?v=11111111111">
+    <title>Antalya Otel Listeleri - Challenge</title>
+</head>
+
+<body>
+    <section class="hotel-container">
+        <div class="container">
+            <div class="row">
+                <div class="hotel-wrapper">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        (function(){
+            function Init(){
+                    Init.cloneElement=document.createElement("script");
+                    Init.cloneElement.type="text/javascript";
+                    Init.cloneElement.src="/assets/js/app.bundle.js?version="+new Date().getTime();
+                    document.body.append(Init.cloneElement);
+            }
+            Init.cloneElement=null
+            Init();
+        })()
+    </script>
+    <script type="text/javascript"  src="/assets/lib/jquery/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript"  src="/assets/lib/lozad/lozadjs.1.16.0.min.js"></script>
+    <!-- <script type="text/javascript"  src="/assets/js/app.bundle.js"></script>  -->
+    
+</body>
+
+</html>

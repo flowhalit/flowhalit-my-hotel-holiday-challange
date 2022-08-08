@@ -1,0 +1,22 @@
+{
+    "name": "Tatil Sepeti",
+    "short_name": "Tatil Sepeti",
+    "icons": [
+      {
+        "src": "android-chrome-192x192.png?v=2",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "android-chrome-512x512.png?v=2",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "gcm_sender_id": "821478403717",
+    "gcm_user_visible_only": true
+  }
+  
